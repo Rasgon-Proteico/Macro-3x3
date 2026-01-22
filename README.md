@@ -8,6 +8,6 @@ qmk compile -kb segundo_verso -km default
 ```
 Para flashear
 ```bash
-~ qmk flash -kb segundo_verso -km default
+qmk flash -kb segundo_verso -km default
 ```
 
