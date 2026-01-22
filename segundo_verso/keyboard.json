@@ -1,0 +1,57 @@
+{
+    "manufacturer": "Angel Cardenas",
+    "keyboard_name": "segundo_verso",
+    "maintainer": "Rasgon-Proteico",
+    "development_board": "promicro",
+    "diode_direction": "COL2ROW",
+    "features": {
+        "bootmagic": true,
+        "extrakey": true,
+        "mousekey": true,
+        "nkro": true
+    },
+    "matrix_pins": {
+        "rows": ["D4", "C6", "D7"],
+        "cols": ["F7", "B1", "B3"]
+    },
+    "url": "",
+    "usb": {
+        "device_version": "1.0.0",
+        "pid": "0x0000",
+        "vid": "0xFEED"
+    },
+
+  /*Este será un macropad para nvim y para unas cosas del solidworks
+
+Pin Físico	Nombre QMK
+4	D4
+5	C6
+6	D7
+7	E6
+8	B4
+9	B5
+Pin Físico	Nombre QMK
+A3	F4
+A2	F5
+A1	F6
+A0	F7
+15	B1
+14	B3
+
+*/
+    "layouts": {
+        "LAYOUT_ortho_3x3": {
+            "layout": [
+                {"matrix": [0, 0], "x": 0, "y": 0},
+                {"matrix": [0, 1], "x": 1, "y": 0},
+                {"matrix": [0, 2], "x": 2, "y": 0},
+                {"matrix": [1, 0], "x": 0, "y": 1},
+                {"matrix": [1, 1], "x": 1, "y": 1},
+                {"matrix": [1, 2], "x": 2, "y": 1},
+                {"matrix": [2, 0], "x": 0, "y": 2},
+                {"matrix": [2, 1], "x": 1, "y": 2},
+                {"matrix": [2, 2], "x": 2, "y": 2}
+            ]
+        }
+    }
+}
